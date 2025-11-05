@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Project from './Project'
+import { Helmet } from 'react-helmet'
 import './App.css'
 
 function App() {
@@ -8,26 +8,31 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      {/* About Section */}
+      <div id='about-me'>
+        <div id='about-text'>
+          <h1>Hi, I am Bryan</h1>
+          <h1>I am a Software Engineer</h1>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
+      {/* Proejct Section */}
+      <div id='projects' className='section'>
+        <h2>Projects</h2>
+        <div id='project-list'>
+          <Project />
+          <Project />
+          <Project />
+          <Project />
+          <Project />
+          <Project />
+          <Project />
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {/* Skills Section */}
+      <div id='skills' className='section'>
+        <h2>Skills</h2>
+      </div>
     </>
   )
 }
