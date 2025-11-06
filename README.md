@@ -2,6 +2,8 @@
 This is a project I started planning to turn my [plain text personal website](https://bryanl530.github.io/Bryan_Website/) to something more flexible.
 
 ## Progress 11/5/25
+Today I had some ideas on how I might want the project section to look like. I am also not doing it too fast in case of me wanting to add
+content to the section.
 
 ## Progress 11/4/25
 Planning out the strucutre of the webpage. 
