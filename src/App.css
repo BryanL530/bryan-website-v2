@@ -17,13 +17,31 @@
 #project-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .project {
   background-color: darkmagenta;
-  width: 20vw;
-  height: 20vh;
+  padding: 1rem;
+  flex: 1;
+}
+
+.project-name {
+  font-size: 1.5rem;
+}
+
+.tool-list {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.tool-text {
+  border: solid;
+  border-color: black;
+  border-width: 0.2rem;
+  border-radius: 1rem;
+  padding: 0.25rem 0.5rem;
+  margin: 0;
 }
 
 #projects {

@@ -3,9 +3,14 @@ import Project from './Project'
 import { Helmet } from 'react-helmet'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+const DATA = {
+  name: "project name ",
+  description: "Project description, it is really long that it is longer than the title",
+  tools: ["python", "dijango", "flask"],
+  img: "./assets/easy68.png",
+}
 
+function App() {
   return (
     <>
       {/* About Section */}
@@ -20,13 +25,13 @@ function App() {
       <div id='projects' className='section'>
         <h2>Projects</h2>
         <div id='project-list'>
-          <Project />
-          <Project />
-          <Project />
-          <Project />
-          <Project />
-          <Project />
-          <Project />
+          <Project data={DATA}/>
+          <Project data={DATA}/>
+          <Project data={DATA}/>
+          <Project data={DATA}/>
+          <Project data={DATA}/>
+          <Project data={DATA}/>
+          <Project data={DATA}/>
         </div>
       </div>
       {/* Skills Section */}
