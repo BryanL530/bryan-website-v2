@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Bryan Website V2",
+        "description": "My personal website, using tools like React instead of plain HTML/CSS.",
+        "tools": [
+            "React",
+            "Vite",
+            "Javascript"
+        ],
+        "link": "https://github.com/BryanL530/bryan-website-v2"
+    },
+    {
+        "name": "Clean Fridge",
+        "description": "A fridge management web application. Share the information with others and manage the fridge together.",
+        "tools": [
+            "Python",
+            "Django",
+            "Flask",
+            "Azure"
+        ]
+    }
+]

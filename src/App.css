@@ -40,8 +40,19 @@
   border-color: black;
   border-width: 0.2rem;
   border-radius: 1rem;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 0.75rem;
   margin: 0;
+}
+
+.github-link {
+  font-size: 1.25rem;
+  color: inherit;
+  display: inline-block;
+  padding: 0.75rem;
+  text-decoration: none;
+  border: solid;
+  border-width: 1px;
+  margin-top: 1.25rem;
 }
 
 #projects {

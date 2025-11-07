@@ -2,15 +2,13 @@ import { useState } from 'react'
 import Project from './Project'
 import { Helmet } from 'react-helmet'
 import './App.css'
-
-const DATA = {
-  name: "project name ",
-  description: "Project description, it is really long that it is longer than the title",
-  tools: ["python", "dijango", "flask"],
-  img: "./assets/easy68.png",
-}
+import projectJson from "./project.json"
 
 function App() {
+  const projectList = projectJson.map(
+    (p) => <Project key={p.name} data={p}/>
+  );
+  
   return (
     <>
       {/* About Section */}
@@ -25,13 +23,7 @@ function App() {
       <div id='projects' className='section'>
         <h2>Projects</h2>
         <div id='project-list'>
-          <Project data={DATA}/>
-          <Project data={DATA}/>
-          <Project data={DATA}/>
-          <Project data={DATA}/>
-          <Project data={DATA}/>
-          <Project data={DATA}/>
-          <Project data={DATA}/>
+          {projectList}
         </div>
       </div>
       {/* Skills Section */}
