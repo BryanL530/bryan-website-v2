@@ -1,6 +1,9 @@
 # Bryan's Personal Website V2
 This is a project I started planning to turn my [plain text personal website](https://bryanl530.github.io/Bryan_Website/) to something more flexible.
 
+## Progress 11/10/25
+Mainly focusing on listing all prjects I have or remembered. With the data I have I could start working on formatting them in the webpage.
+
 ## Progress 11/6/25
 Explored ways to put the icons next to the text for the github repo link. I also planned on ways to create the project components. It will be
 using json for now.

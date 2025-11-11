@@ -18,5 +18,30 @@
             "Flask",
             "Azure"
         ]
+    },
+    {
+        "name": "Horror Maze Generator",
+        "description": "A 3D maze built with custom collider. Along with custom diffuse-lighting on the controlling character.",
+        "tools": [
+            "C#",
+            "Unity"
+        ]
+    },
+    {
+        "name": "Easy68k Disassmbler",
+        "description": "A disassembler writing in assembly and ran in EASY68k(Simulator for Motorola MC68000). Capable 10+ instructions to human-readable format.",
+        "tools": [
+            "Assembly",
+            "Easy68k"
+        ]
+    },
+    {
+        "name": "Spring Theory",
+        "description": "A simple 2D platformer game made with unity.",
+        "tools": [
+            "Unity",
+            "C#",
+            "Github"
+        ]
     }
 ]
