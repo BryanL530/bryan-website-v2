@@ -10,6 +10,7 @@ function Project({data: {name, description, tools, link, img='/default-icon.svg'
       <img className="project-icon" src={BASE + img} alt="Test" />
       <p className="project-name">{name}</p>
       <p className="project-description">{description}</p>
+      <p className="project-tool">Tools</p>
       <div className="tool-list">
         {toolList}
       </div>

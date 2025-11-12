@@ -10,7 +10,7 @@
   left: 15%;
 }
 
-.section {
+section {
   padding: 15vh 15vw;
 }
 
@@ -23,7 +23,7 @@
 .project {
   display: grid;
   grid-template-rows: subgrid;
-  grid-row: span 5;
+  grid-row: span 6;
   background-color: darkmagenta;
   padding: 1rem;
   gap: 0;
@@ -42,6 +42,11 @@
 
 .project-description {
   line-height: 1.5;
+}
+
+.project-tool {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .tool-list {

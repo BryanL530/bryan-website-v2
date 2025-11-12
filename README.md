@@ -1,6 +1,9 @@
 # Bryan's Personal Website V2
 This is a project I started planning to turn my [plain text personal website](https://bryanl530.github.io/Bryan_Website/) to something more flexible.
 
+## Progress 11/12/25
+Writing the skills section 🔥🔥🔥. Had some ideas with react-icons but it is missing some icons and not a single style for all of them. So scrapped that idea. I think having the skills list will be enough for today. May or maynot find new skills to learn in the process. I am hoping to find a design I like in the next few days.
+
 ## Progrss 11/11/25
 Polishing porjects section again. I feel like the projet content is mostly finished besides picking a color or the whole website. I also picked some icons at google fonts. It does make things look a bit nicer.
 
