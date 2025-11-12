@@ -1,13 +1,14 @@
 [
     {
         "name": "Bryan Website V2",
-        "description": "My personal website, using tools like React instead of plain HTML/CSS.",
+        "description": "This website - written in vite-react and hosted on github. Main purpose is to learn react along with some git and CI/CD pipline.",
         "tools": [
             "React",
             "Vite",
             "Javascript"
         ],
-        "link": "https://github.com/BryanL530/bryan-website-v2"
+        "link": "https://github.com/BryanL530/bryan-website-v2",
+        "img": "/web.svg"
     },
     {
         "name": "Clean Fridge",
@@ -17,7 +18,9 @@
             "Django",
             "Flask",
             "Azure"
-        ]
+        ],
+        "link": "https://github.com/BryanL530/Clean_Fridge",
+        "img": "/fridge.svg"
     },
     {
         "name": "Horror Maze Generator",
@@ -25,23 +28,28 @@
         "tools": [
             "C#",
             "Unity"
-        ]
+        ],
+        "link": "https://github.com/Bryan253/CSS451_Final_Project",
+        "img": "/paths.svg"
     },
     {
         "name": "Easy68k Disassmbler",
-        "description": "A disassembler writing in assembly and ran in EASY68k(Simulator for Motorola MC68000). Capable 10+ instructions to human-readable format.",
+        "description": "A disassembler writing in assembly and ran in EASY68k (Simulator for Motorola MC68000). Capable 10+ instructions to human-readable format.",
         "tools": [
             "Assembly",
             "Easy68k"
-        ]
+        ],
+        "link": "https://github.com/BryanL530/Easy68k_Disassembler",
+        "img": "/cogs.svg"
     },
     {
         "name": "Spring Theory",
-        "description": "A simple 2D platformer game made with unity.",
+        "description": "A simple 2D platformer game made with Unity. The player's goal is to climb to the top without losing all HP.",
         "tools": [
             "Unity",
             "C#",
             "Github"
-        ]
+        ],
+        "img": "/controller.svg"
     }
 ]

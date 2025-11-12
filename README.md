@@ -1,6 +1,9 @@
 # Bryan's Personal Website V2
 This is a project I started planning to turn my [plain text personal website](https://bryanl530.github.io/Bryan_Website/) to something more flexible.
 
+## Progrss 11/11/25
+Polishing porjects section again. I feel like the projet content is mostly finished besides picking a color or the whole website. I also picked some icons at google fonts. It does make things look a bit nicer.
+
 ## Progress 11/10/25
 Mainly focusing on listing all prjects I have or remembered. With the data I have I could start working on formatting them in the webpage.
 
