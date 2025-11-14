@@ -1,6 +1,7 @@
 import './App.css'
 import Project from './Project'
 import projectJson from "./project.json"
+const BASE = import.meta.env.BASE_URL
 
 // List for mapping in skills section
 const PROGS = ["Python", "C#", "Java", "Javascript", "C++"];
@@ -18,12 +19,19 @@ function App() {
   return (
     <>
       {/* About Section */}
-      <div id='about-me'>
-        <div id='about-text'>
+      <div id='home'>
+        <div id='home-bg' style={{"--bg": `url(${BASE+"/home-background.jpg"})`}}/>
+        <div id='home-text'>
           <h1>Hi, I am Bryan</h1>
           <h1>I am a Software Engineer</h1>
         </div>
       </div>
+
+      {/*About-me Section */}
+      <section id='about-me'>
+        <h2>About Me</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, eius? Nostrum illo assumenda magnam incidunt, impedit optio neque sed delectus? Esse tempore iusto quos suscipit? Reiciendis illum unde recusandae minima!</p>
+      </section>
 
       {/* Proejct Section */}
       <section id='projects'>

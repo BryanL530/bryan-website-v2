@@ -17,7 +17,7 @@
             "Python",
             "Django",
             "Flask",
-            "Azure"
+            "Azure Cosmos DB"
         ],
         "link": "https://github.com/BryanL530/Clean_Fridge",
         "img": "/fridge.svg"

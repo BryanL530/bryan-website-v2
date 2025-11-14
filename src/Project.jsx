@@ -1,20 +1,16 @@
-import {FaGithub} from "react-icons/fa"
+import {FaGithub, FaTags} from "react-icons/fa6"
 const BASE = import.meta.env.BASE_URL
 
 function Project({data: {name, description, tools, link, img='/default-icon.svg'}}) {
-  const toolList = tools.map(
-    (tool) => <p key={name+tool} className="tool-text">{tool}</p>
-  );
   return (
     <div className="project">
-      <img className="project-icon" src={BASE + img} alt="Test" />
+      <div className="project-icon bg-gold" style={{"--mask-url": `url(${BASE+img})`}}/>
       <p className="project-name">{name}</p>
       <p className="project-description">{description}</p>
-      <p className="project-tool">Tools</p>
       <div className="tool-list">
-        {toolList}
+        <FaTags /> <p className="tool-text">{tools.join(", ")}</p>
       </div>
-      {link && <a className="github-link" target="_blank" rel="noopener noreferrer" href={link}><FaGithub />{" "}Github</a>}
+      {link && <a className="github-link bg-gold c-blue" target="_blank" rel="noopener noreferrer" href={link}><FaGithub />{" "}Github</a>}
     </div>
   );
 }
