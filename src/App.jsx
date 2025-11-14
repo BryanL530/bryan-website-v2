@@ -22,7 +22,7 @@ function App() {
       <div id='home'>
         <div id='home-bg' style={{"--bg": `url(${BASE+"/home-background.jpg"})`}}/>
         <div id='home-text'>
-          <h1>Hi, I am Bryan</h1>
+          <h1>Hi, I am Bryan Lin</h1>
           <h1>I am a Software Engineer</h1>
         </div>
       </div>

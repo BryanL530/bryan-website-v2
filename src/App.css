@@ -7,10 +7,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: var(--bg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: var(--bg) center/cover no-repeat;
   filter: blur(7.5px);
 }
 
