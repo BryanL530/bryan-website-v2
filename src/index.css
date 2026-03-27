@@ -1,9 +1,9 @@
 :root {
-  --black: #191516;
-  --grey: #757780;
-  --blue: #3626A7;
+  --black: #141210;
+  --grey: #8A7E72;
+  --blue: #7A5C00;
   --gold: #FFA400;
-  --white: #DDDDDD;
+  --white: #E8DDD0;
   color: var(--white);
   background-color: var(--black);
 }
@@ -19,6 +19,9 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  border-left: 4px solid var(--gold);
+  padding-left: 0.75rem;
+  margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -28,6 +31,10 @@ h3 {
 
 section {
   padding: 2rem 15vw 3rem;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 ul,li { 
