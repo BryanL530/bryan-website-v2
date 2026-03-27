@@ -2,4 +2,4 @@
 This is a project I started planning to turn my [plain text personal website](https://bryanl530.github.io/Bryan_Website/) to something more flexible.
 
 ## Progress
-Done with projects. Need to work on about me text, along with some formatting for skills.
+Most likely done with this project. Vibe code is string on frontend.
